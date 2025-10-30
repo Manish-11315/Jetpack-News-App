@@ -19,6 +19,7 @@ class newsviewmodel : ViewModel() {
         showeverythingnews()
     }
 
+
     fun shownews(){
         viewModelScope.launch {
             newsrepo.getheadline().collect {
