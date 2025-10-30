@@ -15,7 +15,6 @@ class newsviewmodel : ViewModel() {
     val currentstate = flowstate.asStateFlow()
     val newsrepo : newsrepo = newsrepo()
 
-
     init {
         showeverythingnews()
     }
